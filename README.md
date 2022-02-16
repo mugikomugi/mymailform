@@ -12,7 +12,7 @@
 |style.css | フォームページCSS
 |tel_icon.svg | アイコン画像
 
-### <strong>概要</strong>
+### <strong>仕様</strong>
 1.入力 - index.html<br>
 2.確認 - confilm.phpでエラーチェック<br>
 - エラー有りの場合は戻るボタンのみ
