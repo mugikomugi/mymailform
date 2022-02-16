@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36">
+  <g id="グループ_1" data-name="グループ 1" transform="translate(-70 -79)">
+    <path id="Icon_map-volume-control-telephone" data-name="Icon map-volume-control-telephone" d="M12.183,15.092H14.1c.574,0,.941-.848.941-1.42V7.613c0-.573-.367-.413-.941-.413H12.183Zm0,11.479H14.1c.574,0,.941.666.941,1.24v6.056c0,.57-.367,1.313-.941,1.313H12.183ZM9.654,20.831c-.016-5.536,1.02-5.739,1.611-5.739h.2V7.2h-.244C10.172,7.2,5.04,8.937,5.04,21.189s5.132,13.99,6.184,13.99h.244V26.57h-.2C10.674,26.57,9.67,26.364,9.654,20.831Z" transform="translate(71.373 79.172) rotate(-14)" fill="#e6040e"/>
+    <g id="楕円形_1" data-name="楕円形 1" transform="translate(70 79)" fill="none" stroke="#e6040e" stroke-width="2">
+      <circle cx="18" cy="18" r="18" stroke="none"/>
+      <circle cx="18" cy="18" r="17" fill="none"/>
+    </g>
+  </g>
+</svg>

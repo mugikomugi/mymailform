@@ -1,0 +1,181 @@
+/*CSS*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+#contact {
+  width: 1000px;
+  margin: 0 auto;
+  color: #4d4d4d;
+}
+
+#contact h1 {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+  margin: 30px 0 0 0;
+}
+
+#contact form {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.formbox {
+  display: flex;
+  justify-content: center;
+}
+
+.formbox label {
+  width: 25%;
+  padding: 0 25px 0 0;
+  text-align: right;
+  margin-top: 15px;
+}
+
+.inputText {
+  width: 75%;
+  margin-top: 15px;
+}
+
+.formbox input {
+  display: block;
+}
+
+.formbox input[type="text"],.formbox input[type="tel"],
+.formbox input[type="email"],.formbox select {
+  width: 100%;
+  line-height: 28px;
+  border-radius: 3px;
+  border: solid 1px #ccc;
+  padding: 3px 6px;
+  font-size: 16px;
+}
+
+.formbox select {
+  padding: 6px;
+  color: #4d4d4d;
+}
+
+.formbox .radio input,.checkBox input[type="checkbox"] {
+  display: inline-block;
+  margin-right: 10px;
+}
+.checkbox input {
+  display: inline-block;
+  margin-right: 12px;
+}
+.formbox textarea {
+  width: 100%;
+  border: solid 1px #ccc;
+  padding: 3px 6px;
+  font-size: 16px;
+  border-radius: 3px;
+}
+
+/*-----送信ボタン-----*/
+.confi input {
+  width: 200px;
+  line-height: 35px;
+  background: #e60005;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  margin: 35px auto;
+  display: block;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.confi input:hover {
+  background: #ff8c00;
+}
+
+/*-----TEL contact-----*/
+#telBottom {
+  width: 100%;
+  border-top: solid 1px #b3b3b3;
+  padding-top: 35px;
+  margin: 60px 0;
+}
+
+#telBottom p:first-of-type a {
+  display: block;
+  width: 246px;
+  color: #e60005;
+  margin: 1rem auto 0 auto;
+  font-size: 30px;
+  background: url(tel_icon.svg) left center no-repeat;
+  border-bottom: solid 1px #e60005;
+  padding: 0 0 0 40px;
+  cursor: default;
+}
+
+#telBottom p:nth-of-type(2) {
+  font-size: 14px;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.text12 {
+  font-size: 12px;
+}
+
+.need {
+  font-size: 12px;
+  color: crimson;
+  padding: 0 0 0 6px;
+}
+.red {
+  color: crimson;
+}
+.textCenter {
+  text-align: center;
+  font-size: 16px;
+  font-weight: normal
+}
+
+/*----- -----*/
+@media only screen and (max-width: 768px) {
+  #contact {
+    width: 96%;
+  }
+
+  #contact form {
+    width: 90%;
+    margin: 30px auto;
+  }
+
+  .formbox {
+    flex-direction: column;
+  }
+
+  .formbox label {
+    width: 100%;
+    padding: 0;
+    text-align: left;
+  }
+
+  .inputText {
+    width: 100%;
+    margin-top: 6px;
+  }
+
+  #telBottom p:first-of-type a {
+    width: 210px;
+    font-size: 24px;
+    background-size: 26px;
+  }
+
+  #telBottom p:nth-of-type(2) {
+    font-size: 13px;
+    text-align: left;
+  }
+}
